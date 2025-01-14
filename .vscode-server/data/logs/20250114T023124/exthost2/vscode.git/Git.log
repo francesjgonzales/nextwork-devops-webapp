@@ -1,0 +1,4 @@
+2025-01-14 02:45:05.857 [info] [main] Log level: Info
+2025-01-14 02:45:05.858 [info] [main] Validating found git in: "git"
+2025-01-14 02:45:05.858 [warning] Unable to find git. Error: spawn git ENOENT
+2025-01-14 02:45:05.858 [warning] [main] Failed to create model: Error: Git installation not found.

@@ -1,0 +1,39 @@
+2025-01-14 02:46:34.070 [info] Extension host with pid 27956 started
+2025-01-14 02:46:34.084 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/ed3f518d06293d4c1a55bff08b6459c6/vscode.lock': Lock acquired.
+2025-01-14 02:46:36.339 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*'
+2025-01-14 02:46:36.340 [info] ExtensionService#_doActivateExtension gitpod.gitpod-remote-ssh, startup: false, activationEvent: '*'
+2025-01-14 02:46:37.840 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-01-14 02:46:37.902 [error] Activating extension gitpod.gitpod-remote-ssh failed due to an error:
+2025-01-14 02:46:37.902 [error] Error: 14 UNAVAILABLE: No connection established
+	at t.callErrorFromStatus (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:624042)
+	at Object.onReceiveStatus (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:649249)
+	at Object.onReceiveStatus (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:645134)
+	at Object.onReceiveStatus (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:644579)
+	at /home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:728561
+	at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+	at n.makeUnaryRequest (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:648790)
+	at n.workspaceInfo (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:713964)
+	at node:internal/util:432:7
+	at new Promise (<anonymous>)
+	at bound  (node:internal/util:418:12)
+	at A.getWorkspaceInfo (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:1399582)
+	at t.createGitpodExtensionContext (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:1376790)
+	at t.setupGitpodContext (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:1370123)
+	at t.activate (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:338504)
+	at Pw.kb (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:119:15214)
+	at Pw.jb (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:119:14921)
+	at file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:119:13079
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async K0.n (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+	at async K0.m (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+	at async K0.l (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2025-01-14 02:46:43.667 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-01-14 02:46:43.770 [info] Eager extensions activated
+2025-01-14 02:46:43.770 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-14 02:46:43.770 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-14 02:52:45.848 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-01-14 02:52:45.848 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-14 03:04:54.122 [info] Extension host terminating: received terminate message from renderer
+2025-01-14 03:04:54.122 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/ed3f518d06293d4c1a55bff08b6459c6/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-01-14 03:04:54.149 [info] Extension host with pid 27956 exiting with code 0

@@ -1,0 +1,269 @@
+2025-01-14 02:31:24.785 [info] 
+
+
+
+
+2025-01-14 02:31:24.797 [info] Installing extensions...
+2025-01-14 02:31:24.799 [info] Extension host agent started.
+2025-01-14 02:31:24.849 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2025-01-14 02:31:24.945 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2025-01-14 02:31:25.190 [info] [<unknown>][dc9e1bfb][ManagementConnection] New connection established.
+2025-01-14 02:31:25.191 [info] [<unknown>][52e4daa1][ExtensionHostConnection] New connection established.
+2025-01-14 02:31:25.194 [info] [<unknown>][52e4daa1][ExtensionHostConnection] <26947> Launched Extension Host Process.
+2025-01-14 02:31:25.306 [info] Installing extension 'gitpod.gitpod-remote-ssh'...
+2025-01-14 02:31:25.480 [info] Getting Manifest... gitpod.gitpod-remote-ssh
+2025-01-14 02:31:25.510 [info] Installing extension: gitpod.gitpod-remote-ssh {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ec2-user/.vscode-server/extensions/extensions.json","external":"file:///home/ec2-user/.vscode-server/extensions/extensions.json","path":"/home/ec2-user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2025-01-14 02:31:27.752 [info] Extension signature verification result for gitpod.gitpod-remote-ssh: Success. Executed: true. Duration: 1312ms.
+2025-01-14 02:31:27.801 [info] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57: gitpod.gitpod-remote-ssh
+2025-01-14 02:31:27.807 [info] Renamed to /home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57
+2025-01-14 02:31:27.808 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:31:27.809 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:31:27.809 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:31:27.809 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:31:27.813 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:31:27.813 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:31:27.813 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:31:27.813 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:31:27.815 [info] Extension installed successfully: gitpod.gitpod-remote-ssh file:///home/ec2-user/.vscode-server/extensions/extensions.json
+2025-01-14 02:31:27.815 [info] Extension 'gitpod.gitpod-remote-ssh' v0.0.57 was successfully installed.
+2025-01-14 02:31:27.850 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:31:27.851 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:31:27.851 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:31:27.851 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:31:29.042 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:31:29.042 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:31:29.042 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:31:29.042 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:31:33.913 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:31:33.913 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:31:33.913 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:31:33.913 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:31:34.888 [error] CodeExpectedError: Could not find pty 4 on pty host
+    at I.W (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateIcon (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7772)
+    at N.s.<computed> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-14 02:31:34.890 [error] CodeExpectedError: Could not find pty 4 on pty host
+    at I.W (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at us.value (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-14 02:31:36.006 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:31:36.006 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:31:36.006 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:31:36.006 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:31:36.743 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:31:36.743 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:31:36.743 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:31:36.743 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:31:37.613 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:31:37.613 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:31:37.613 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:31:37.614 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:31:38.061 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:31:38.062 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:31:38.062 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:31:38.062 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:33:03.100 [info] [<unknown>][dc9e1bfb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-14 02:36:24.800 [info] New EH opened, aborting shutdown
+2025-01-14 02:36:24.800 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/server-main.js:184:1060)
+    at process.emit (node:events:530:35)
+2025-01-14 02:44:17.711 [info] [<unknown>][03984a07][ExtensionHostConnection] New connection established.
+2025-01-14 02:44:17.712 [info] [<unknown>][597e62ac][ManagementConnection] New connection established.
+2025-01-14 02:44:17.715 [info] [<unknown>][03984a07][ExtensionHostConnection] <27599> Launched Extension Host Process.
+2025-01-14 02:44:18.020 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:44:18.021 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:44:18.021 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:44:18.021 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:44:18.055 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:44:18.055 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:44:18.055 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:44:18.055 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:44:18.222 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:44:18.222 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:44:18.222 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:44:18.222 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:44:21.598 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:44:21.599 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:44:21.599 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:44:21.599 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:44:21.647 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:44:21.648 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:44:21.648 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:44:21.648 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:44:24.809 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:44:24.809 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:44:24.809 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:44:24.810 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:44:40.220 [info] [<unknown>][597e62ac][ManagementConnection] The client has reconnected.
+2025-01-14 02:44:40.412 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:44:40.412 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:44:40.412 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:44:40.412 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:44:40.679 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:44:40.679 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:44:40.679 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:44:40.679 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:44:40.788 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:44:40.789 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:44:40.789 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:44:40.789 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:44:41.608 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:44:41.608 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:44:41.608 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:44:41.608 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:44:42.037 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:44:42.037 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:44:42.037 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:44:42.037 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:45:05.144 [info] [<unknown>][03984a07][ExtensionHostConnection] The client has reconnected.
+2025-01-14 02:46:12.313 [info] [<unknown>][597e62ac][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-14 02:46:12.355 [info] [<unknown>][03984a07][ExtensionHostConnection] <27599> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 02:46:31.292 [info] [<unknown>][b9826b4e][ExtensionHostConnection] New connection established.
+2025-01-14 02:46:31.296 [info] [<unknown>][b9826b4e][ExtensionHostConnection] <27956> Launched Extension Host Process.
+2025-01-14 02:46:31.297 [info] [<unknown>][94806482][ManagementConnection] New connection established.
+2025-01-14 02:46:31.576 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:31.576 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:31.576 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:31.576 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:31.604 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:31.604 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:31.605 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:31.605 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:31.936 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:31.936 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:31.936 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:31.937 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:32.014 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:32.015 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:32.015 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:32.015 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:33.576 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:33.576 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:33.576 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:33.576 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:34.456 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:34.456 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:34.456 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:34.456 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:36.050 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:36.051 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:36.051 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:36.051 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:37.275 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:37.276 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:37.276 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:37.276 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:43.815 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:43.815 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:43.815 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:43.815 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:45.425 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:45.425 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:45.425 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:45.425 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:45.733 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:45.735 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:45.735 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:45.735 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:47.394 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:47.394 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:47.394 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:47.394 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:46:52.761 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:46:52.761 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:46:52.761 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:46:52.761 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:49:18.034 [info] [<unknown>][52e4daa1][ExtensionHostConnection] <26947> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 02:51:32.112 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:51:32.112 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:51:32.112 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:51:32.112 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:54:37.755 [info] [<unknown>][691d191c][ExtensionHostConnection] New connection established.
+2025-01-14 02:54:37.760 [info] [<unknown>][691d191c][ExtensionHostConnection] <28361> Launched Extension Host Process.
+2025-01-14 02:54:37.761 [info] [<unknown>][6000f8b4][ManagementConnection] New connection established.
+2025-01-14 02:54:38.066 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:54:38.066 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:54:38.066 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:54:38.066 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:54:38.087 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:54:38.087 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:54:38.087 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:54:38.087 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:54:38.846 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:54:38.847 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:54:38.847 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:54:38.847 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:54:38.902 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:54:38.902 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:54:38.902 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:54:38.902 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:54:40.939 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:54:40.939 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:54:40.939 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:54:40.939 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:54:41.629 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:54:41.629 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:54:41.629 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:54:41.629 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:54:43.485 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:54:43.486 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:54:43.486 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:54:43.486 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:54:44.940 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:54:44.940 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:54:44.940 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:54:44.940 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:54:53.057 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:54:53.057 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:54:53.057 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:54:53.057 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:54:54.189 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:54:54.189 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:54:54.189 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:54:54.189 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:54:54.792 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:54:54.792 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:54:54.792 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:54:54.792 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:56:32.367 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:56:32.367 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:56:32.367 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:56:32.367 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 02:59:38.853 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 02:59:38.853 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 02:59:38.853 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 02:59:38.853 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 03:01:32.584 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 03:01:32.586 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 03:01:32.586 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 03:01:32.586 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 03:04:39.030 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 03:04:39.030 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 03:04:39.030 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 03:04:39.030 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 03:04:47.491 [info] [<unknown>][6000f8b4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-14 03:04:47.661 [info] [<unknown>][691d191c][ExtensionHostConnection] <28361> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 03:04:54.127 [info] [<unknown>][94806482][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-14 03:04:54.159 [info] [<unknown>][b9826b4e][ExtensionHostConnection] <27956> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 03:04:54.160 [info] Last EH closed, waiting before shutting down
+2025-01-14 03:09:54.161 [info] Last EH closed, shutting down

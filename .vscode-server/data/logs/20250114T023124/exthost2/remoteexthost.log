@@ -1,0 +1,35 @@
+2025-01-14 02:44:22.092 [info] Extension host with pid 27599 started
+2025-01-14 02:44:25.207 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-14 02:44:25.208 [info] ExtensionService#_doActivateExtension gitpod.gitpod-remote-ssh, startup: true, activationEvent: '*'
+2025-01-14 02:44:35.219 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-14 02:44:35.220 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-14 02:45:05.261 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-14 02:45:05.262 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-14 02:45:05.467 [error] Activating extension gitpod.gitpod-remote-ssh failed due to an error:
+2025-01-14 02:45:05.468 [error] Error: 14 UNAVAILABLE: No connection established
+	at t.callErrorFromStatus (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:624042)
+	at Object.onReceiveStatus (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:649249)
+	at Object.onReceiveStatus (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:645134)
+	at Object.onReceiveStatus (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:644579)
+	at /home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:728561
+	at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+	at n.makeUnaryRequest (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:648790)
+	at n.workspaceInfo (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:713964)
+	at node:internal/util:432:7
+	at new Promise (<anonymous>)
+	at bound  (node:internal/util:418:12)
+	at A.getWorkspaceInfo (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:1399582)
+	at t.createGitpodExtensionContext (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:1376790)
+	at t.setupGitpodContext (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:1370123)
+	at t.activate (/home/ec2-user/.vscode-server/extensions/gitpod.gitpod-remote-ssh-0.0.57/out/extension.js:2:338504)
+	at Pw.kb (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:119:15214)
+	at Pw.jb (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:119:14921)
+	at file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:119:13079
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async K0.n (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+	at async K0.m (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+	at async K0.l (file:///home/ec2-user/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2025-01-14 02:45:05.642 [info] Eager extensions activated
+2025-01-14 02:46:12.327 [info] Extension host terminating: received terminate message from renderer
+2025-01-14 02:46:12.339 [info] Extension host with pid 27599 exiting with code 0
