@@ -25,3 +25,26 @@ java -version
 mvn archetype:generate    -DgroupId=com.nextwork.app    -DartifactId=nextwork-web-project    -DarchetypeArtifactId=maven-archetype-webapp    -DinteractiveMode=false
 exit
 ls
+sudo dnf update -y
+sudo dnf install git -y
+git --version
+git -v
+pwd
+git init
+git remote add origin https://github.com/francesjgonzales/nextwork-devops-webapp.git
+git add .
+git status
+git commit -m "Updated index.jsp with new content"
+git push -u origin master
+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
+git status
+git push -u origin master
+git log
+git add .
+git commit -m "made changes to index.jsp'
+git commit -m "made changes to index.jsp"
+git push
+git add .
+git commit -m "made changes to index.jsp"
+git push
+touch README.md
