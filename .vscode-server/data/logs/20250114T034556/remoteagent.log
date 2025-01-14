@@ -256,3 +256,12 @@
 2025-01-14 04:54:48.346 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
 2025-01-14 04:54:48.347 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
 2025-01-14 04:54:48.347 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 04:59:38.264 [info] [<unknown>][f29d36d4][ExtensionHostConnection] <31656> Extension Host Process exited with code: 0, signal: null.
+2025-01-14 04:59:38.765 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 04:59:38.765 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 04:59:38.766 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 04:59:38.766 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 05:04:38.968 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 05:04:38.968 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 05:04:38.968 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 05:04:38.968 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.

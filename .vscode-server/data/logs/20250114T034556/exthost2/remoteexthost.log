@@ -34,3 +34,5 @@ for call at
 2025-01-14 04:18:01.730 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
 2025-01-14 04:47:29.665 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
 2025-01-14 04:47:29.667 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-14 04:59:38.229 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-01-14 04:59:38.251 [info] Extension host with pid 31656 exiting with code 0
