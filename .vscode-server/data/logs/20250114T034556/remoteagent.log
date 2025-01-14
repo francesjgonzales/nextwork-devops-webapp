@@ -168,3 +168,7 @@
 2025-01-14 04:44:26.102 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
 2025-01-14 04:44:26.102 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
 2025-01-14 04:44:26.102 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+2025-01-14 04:49:26.421 [warning] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+2025-01-14 04:49:26.421 [warning] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+2025-01-14 04:49:26.421 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+2025-01-14 04:49:26.421 [warning] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
